@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.accordion {
+    background-color: #fefffa;
+    max-width: 600px;
+    margin: 50px auto;
+    line-height: 1.6;
+    box-shadow: 5px 5px 10px 0px #a4bac1;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #dce7eb;
+    padding: 15px 15px 15px 40px;
+    cursor: pointer; 
+}
+
+.accordion-header {
+    color: #2b3a40;
+    text-decoration: none;
+    display: inline-block;  
+    position: relative;
+}
+
+
+
+
